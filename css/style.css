@@ -9,32 +9,81 @@ body		{background-color:#FFF}
 }
 
 #container {
-	width: 550px;
-	margin: 0 auto;
-	margin-top: 100px;
+	width: 600px;
+	margin: 100px auto 100px auto;
 	}
 	
 H1 	{
-	font-size:38px;
+	font-size:34px;
+	font: Helvetica, sans-serif;
+	line-height: 8px;
 }	
 
 em	{
-	font-size: 20px;
+	font: Times "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 16px;
 }
 
 H2 	{
 	font-size:18px;
+	font: Helvetica, sans-serif;
 }	
 	
 H3 	{
 	font-style: italic;
 	font-size:12px;
+	color:#000;
+}
+
+H4 	{
+	font-style: italic;
+	font-size:10px;
+	line-height:14px;
 	color:#999;
 }
 
-.tekst {
-	font-size: 14px;
-	line-height: 16px;
+H5 	{
+	margin-left: 20px;
+	font-style: italic;
+	font-size:12px;
+	color:#000;
 }
+
+.intro 	{
+	margin-top: 20px;
+	font-style: italic;
+	font-size:12px;
+	color:#000;
+	border-top: 1px solid black;
+}
+
+.vraag 	{
+	margin-left: 20px;
+	font-style: italic;
+	font-size:16px;
+	line-height:16px;
+	color:#000;
+}
+
+
+.tekst {
+	font: Times "Times New Roman", Times, serif;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.foto {
+	text-align: center;
+	margin: 40px auto 40px auto;
+}
+
+.ref 	{
+	font: Times "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size:10px;
+	line-height: 14px;
+	color:#000;
+}	
 	
 	
